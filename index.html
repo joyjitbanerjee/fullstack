@@ -2,31 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Modern Frame - Home</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>The Modern Frame</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
 
-  <main>
-    <h2>Welcome to The Modern Frame</h2>
-    <p>Discover inspiring artwork and upcoming exhibitions.</p>
-    <img src="https://picsum.photos/400/300" alt="Featured artwork">
-    <p><strong>Next Exhibition:</strong> Abstract Visions – Sept 10, 2025</p>
-  </main>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
 
-  <footer>
-    <p>&copy; 2025 The Modern Frame Gallery</p>
-  </footer>
+      <button type="submit">Login</button>
+    </form>
+  </div>
 
 </body>
 </html>
